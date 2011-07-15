@@ -1,0 +1,12 @@
+{application, gen_event_registrar,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gen_event_registrar_app, []}},
+  {env, []}
+ ]}.
